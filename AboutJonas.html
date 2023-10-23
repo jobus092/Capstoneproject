@@ -39,7 +39,7 @@
       
       
     </style>
-
+<script src="code.js"></script>
 </head>
 <body>
 
@@ -80,7 +80,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm">
-            <ul><h3>
+            <ul><h3 id="AboutMeText" onmouseover="moFunction()">
               My Name is Jonas
             </ul></h3>
           </div>
@@ -95,22 +95,12 @@
               power it would be the ability to make any food I want appear out of thin air.
       
             </ul></h7>
+            
           </div>
         </div>
       </div>
     </div>
   </center>
-  <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="cuteyoungman.jpg" alt="man" width="32" height="32">
-  <script>
-    function bigImg(x) {
-      x.style.height = "64px";
-      x.style.width = "64px";
-    }
-    
-    function normalImg(x) {
-      x.style.height = "32px";
-      x.style.width = "32px";
-    }
-    </script>
+  
 </body>
 </html>
