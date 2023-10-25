@@ -15,5 +15,5 @@ function newFunction(){
 }
 
 function newStyle(){
-    document.getElementById("style").style.backgroundColor="green"
+    document.getElementById("style").style.Color="green"
 }
