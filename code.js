@@ -11,5 +11,5 @@ function timer(){
 }
 
 function inner(){
-    document.getElementById("iHtml").innerHtml="I live in Norway and I don't go to school. I hope to one day become a racecar driver"
+    document.getElementById("iHtml").style.backgroundColor='green'
 }
