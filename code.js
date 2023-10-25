@@ -7,7 +7,7 @@ function moFunction(){
 const myTimeout = setTimeout(timer, 2000);
 
 function timer() {
-  document.getElementById("timeout").style.backgroundColor="purple"
+  document.getElementById("timeout").style.backgroundColor="blue"
 }
 
 function inner() {
