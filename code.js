@@ -10,6 +10,6 @@ function timer(){
   document.getElementById("timeout").style.backgroundColor="blue"
 }
 
-function inner(){
-    document.getElementById("iHtml").style.backgroundColor='green'
+function newFunction(){
+    document.getElementById("inner").style.backgroundColor='green'
 }
