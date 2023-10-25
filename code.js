@@ -11,5 +11,5 @@ function timer(){
 }
 
 function newFunction(){
-    document.getElementById("inner").innerHTML="My name is Henry, I am blind and deaf, and I dream of being a competitive pole dancer when I grow up";
+    document.getElementById("inner").style.backgroundColor="red"
 }
