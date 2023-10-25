@@ -9,3 +9,7 @@ const myTimeout = setTimeout(timer, 2000);
 function timer() {
   document.getElementById("timeout").style.backgroundColor="purple"
 }
+
+function inner() {
+    document.getElementById("iHtml").innerHtml="I live in Norway and I don't go to school. I hope to one day become a racecar driver";
+}
